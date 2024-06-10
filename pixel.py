@@ -60,9 +60,9 @@ def decrypt_image(image_path, key, output_path):
 
 # Example usage
 key = 123  # Simple integer key for XOR operation
-input_image_path = r'C:\Users\skgam\Documents\batman.jpg'
-encrypted_image_path = r'C:\Users\skgam\Documents\batman_encrypted.jpg'
-decrypted_image_path = r'C:\Users\skgam\Documents\batman_decrypted.jpg'
+input_image_path = r'image-path'
+encrypted_image_path = r'encrypted-image-path'
+decrypted_image_path = r'decrypted-image-path'
 
 # Encrypt the image
 encrypt_image(input_image_path, key, encrypted_image_path)
